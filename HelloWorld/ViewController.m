@@ -18,6 +18,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.view = [[UIView alloc] init];
+    self.view.backgroundColor = [UIColor whiteColor];
+    hello = [[UILabel alloc] initWithFrame:CGRectMake(01, 10, 150, 50)];
+    hello.text = @"Hello World!";
+    [self.view addSubview:hello];
 }
 
 - (void)didReceiveMemoryWarning
