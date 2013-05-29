@@ -14,7 +14,8 @@ if ENV['SL_RUN_UNIT_TESTS'] then
     app_test_host = File.dirname(ENV["TEST_HOST"])
     passed = system("#{launcher_path} launch \"#{app_test_host}\" #{environment_args} --args -SenTest All #{test_bundle_path}")
     exit(1) if !passed
-    exit(0)
+    set +o errexit
+    exit $RETVAL
 else
     puts "SL_RUN_UNIT_TESTS not set - Did not run unit tests!"
 end
