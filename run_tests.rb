@@ -18,4 +18,5 @@ if ENV['SL_RUN_UNIT_TESTS'] then
     exit $RETVAL
 else
     puts "SL_RUN_UNIT_TESTS not set - Did not run unit tests!"
+    exit 0
 end
