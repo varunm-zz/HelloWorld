@@ -1,0 +1,525 @@
+THelloWorld
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Release-iphoneos/HelloWorld.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/Info.plist HelloWorld/HelloWorld-Info.plist
+cProcessPCH /var/folders/8x/wwkg9lh93y102x4shwt92t1w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld-Prefix-ejelthzmarrgpdfwglmnzfqpyueq/HelloWorld-Prefix.pch.pth HelloWorld/HelloWorld-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/8x/wwkg9lh93y102x4shwt92t1w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld-Prefix-ayrxyayhauprwudflekywfwihsdc/HelloWorld-Prefix.pch.pth HelloWorld/HelloWorld-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/main.o /Users/originate/HelloWorld/HelloWorld/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/ViewController.o /Users/originate/HelloWorld/HelloWorld/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/main.o /Users/originate/HelloWorld/HelloWorld/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/AppDelegate.o /Users/originate/HelloWorld/HelloWorld/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/AppDelegate.o /Users/originate/HelloWorld/HelloWorld/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/ViewController.o /Users/originate/HelloWorld/HelloWorld/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/HelloWorld normal armv7s
+cLd /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/HelloWorld normal armv7
+cCreateUniversalBinary /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/HelloWorld normal "armv7 armv7s"
+cGenerateDSYMFile /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app.dSYM /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/HelloWorld
+cCopyPNGFile /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/Default.png HelloWorld/Default.png
+cCopyPNGFile /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/Default@2x.png HelloWorld/Default@2x.png
+cCopyStringsFile /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/en.lproj/InfoPlist.strings HelloWorld/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/Default-568h@2x.png HelloWorld/Default-568h@2x.png
+cCompileXIB /Users/originate/HelloWorld/HelloWorld/en.lproj/ViewController_iPhone.xib
+cCompileXIB /Users/originate/HelloWorld/HelloWorld/en.lproj/ViewController_iPad.xib
+cProcessProductPackaging "/Users/originate/Library/MobileDevice/Provisioning Profiles/35776C85-B1A3-4605-9154-76D43F7A7A2B.mobileprovision" /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/originate/Library/MobileDevice/Provisioning Profiles/35776C85-B1A3-4605-9154-76D43F7A7A2B.mobileprovision" /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/embedded.mobileprovision
+cTouch /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld.xcent
+cCodeSign /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app
+cValidate /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c0000000050ED385D0000000000000110
+t1357723741
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+c00000000519A89CC00000000000001A7
+t1369082316
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+c00000000519A89CC00000000000001E5
+t1369082316
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000519A89CD0000000000322700
+t1369082317
+s3286784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000519A89CD000000000062AD10
+t1369082317
+s6466832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000519A89CD00000000000015F7
+t1369082317
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000519A89CD0000000000000E8D
+t1369082317
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000519A89CF00000000011BCDF0
+t1369082319
+s18599408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/Availability.h
+c00000000519A89CF0000000000001B73
+t1369082319
+s7027
+
+N/Users/originate/HelloWorld/HelloWorld/AppDelegate.h
+c00000000519EC047000000000000016E
+t1369358407
+s366
+
+N/Users/originate/HelloWorld/HelloWorld/AppDelegate.m
+c00000000519FCFCD0000000000000983
+t1369427917
+s2435
+
+N/Users/originate/HelloWorld/HelloWorld/Default-568h@2x.png
+c00000000515C9E6200000000000048A2
+t1365024354
+s18594
+
+N/Users/originate/HelloWorld/HelloWorld/Default.png
+c00000000515C9E62000000000000198C
+t1365024354
+s6540
+
+N/Users/originate/HelloWorld/HelloWorld/Default@2x.png
+c00000000515C9E620000000000003EEB
+t1365024354
+s16107
+
+N/Users/originate/HelloWorld/HelloWorld/HelloWorld-Prefix.pch
+c00000000519EC0470000000000000143
+t1369358407
+s323
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/originate/HelloWorld/HelloWorld/ViewController.h
+c00000000519FCE7000000000000000F1
+t1369427568
+s241
+
+N/Users/originate/HelloWorld/HelloWorld/ViewController.m
+c00000000519FFAFD00000000000002FC
+t1369438973
+s764
+
+N/Users/originate/HelloWorld/HelloWorld/en.lproj/InfoPlist.strings
+c00000000519EC047000000000000002D
+t1369358407
+s45
+
+N/Users/originate/HelloWorld/HelloWorld/en.lproj/ViewController_iPad.xib
+c00000000519EC0470000000000001489
+t1369358407
+s5257
+
+N/Users/originate/HelloWorld/HelloWorld/en.lproj/ViewController_iPhone.xib
+c00000000519EC0470000000000001782
+t1369358407
+s6018
+
+N/Users/originate/HelloWorld/HelloWorld/main.m
+c00000000519EC0470000000000000152
+t1369358407
+s338
+
+N/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld.xcent
+t2
+s0
+
+N/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/AppDelegate.o
+t2
+s0
+
+N/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/HelloWorld
+t2
+s0
+
+N/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/HelloWorld.LinkFileList
+c0000000051A6A01B0000000000000164
+t1369874459
+s356
+
+N/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/ViewController.o
+t2
+s0
+
+N/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/AppDelegate.o
+t2
+s0
+
+N/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/HelloWorld
+t2
+s0
+
+N/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/HelloWorld.LinkFileList
+c0000000051A6A01B0000000000000167
+t1369874459
+s359
+
+N/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/ViewController.o
+t2
+s0
+
+N/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/main.o
+t2
+s0
+
+N/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app
+t2
+s0
+
+N/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app.dSYM
+t2
+s0
+
+N/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/Default.png
+t2
+s0
+
+N/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/Default@2x.png
+t2
+s0
+
+N/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/HelloWorld
+t2
+s0
+
+N/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/Info.plist
+t2
+s0
+
+N/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/PkgInfo
+t2
+s0
+
+N/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/ResourceRules.plist
+t2
+s0
+
+N/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/en.lproj/ViewController_iPad.nib
+t2
+s0
+
+N/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/en.lproj/ViewController_iPhone.nib
+t2
+s0
+
+N/Users/originate/Library/MobileDevice/Provisioning Profiles/35776C85-B1A3-4605-9154-76D43F7A7A2B.mobileprovision
+c0000000051A53EA50000000000002F87
+t1369783973
+s12167
+
+N/var/folders/8x/wwkg9lh93y102x4shwt92t1w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld-Prefix-ayrxyayhauprwudflekywfwihsdc/HelloWorld-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/8x/wwkg9lh93y102x4shwt92t1w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld-Prefix-ejelthzmarrgpdfwglmnzfqpyueq/HelloWorld-Prefix.pch.pth
+t2
+s0
+
+NHelloWorld/HelloWorld-Info.plist
+c00000000519EC04700000000000005AC
+t1369358407
+s1452
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa930aa9bd756b741^ca18b39bd756b741^---0#1#0#--18"Check dependencies36"4332C3EC-614C-450B-98D4-23C34D0B9EC9-
+
+CCodeSign /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app
+s391567260.295338
+e391567260.454291
+r1
+xCodeSign
+x/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"CodeSign build/Release-iphoneos/HelloWorld.appfcab4b9cd756b741^274c749cd756b741^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/0000000000000000^864"CodeSign build/Release-iphoneos/HelloWorld.app    cd /Users/originate/HelloWorld    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:mfsr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin"    /usr/bin/codesign --force --sign d23c8182bc673efc9f7bc74453bcae3b6a0f2461 --resource-rules=/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/ResourceRules.plist --entitlements /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld.xcent /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app36"14998B18-85EF-41F8-82C2-3E21F02D2039-
+
+CCompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/AppDelegate.o /Users/originate/HelloWorld/HelloWorld/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391567259.928652
+e391567259.996185
+r1
+xCompileC
+xbuild/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/AppDelegate.o
+x/Users/originate/HelloWorld/HelloWorld/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/originate/HelloWorld/HelloWorld/AppDelegate.mb5dced9bd756b741^2d06ff9bd756b741^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/originate/HelloWorld/HelloWorld/AppDelegate.m0000000000000000^3353"CompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/AppDelegate.o HelloWorld/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/originate/HelloWorld    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:mfsr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/originate/HelloWorld/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources/armv7 -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources -F/Users/originate/HelloWorld/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8x/wwkg9lh93y102x4shwt92t1w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld-Prefix-ejelthzmarrgpdfwglmnzfqpyueq/HelloWorld-Prefix.pch -MMD -MT dependencies -MF /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/AppDelegate.dia -c /Users/originate/HelloWorld/HelloWorld/AppDelegate.m -o /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/AppDelegate.o36"331E2578-F49E-4C47-A51F-CBE9A85B7C41-
+
+CCompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/ViewController.o /Users/originate/HelloWorld/HelloWorld/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391567259.928630
+e391567259.989523
+r1
+xCompileC
+xbuild/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/ViewController.o
+x/Users/originate/HelloWorld/HelloWorld/ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/originate/HelloWorld/HelloWorld/ViewController.m23d7ed9bd756b741^4051fd9bd756b741^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/originate/HelloWorld/HelloWorld/ViewController.m0000000000000000^3371"CompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/ViewController.o HelloWorld/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/originate/HelloWorld    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:mfsr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/originate/HelloWorld/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources/armv7 -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources -F/Users/originate/HelloWorld/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8x/wwkg9lh93y102x4shwt92t1w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld-Prefix-ejelthzmarrgpdfwglmnzfqpyueq/HelloWorld-Prefix.pch -MMD -MT dependencies -MF /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/ViewController.d --serialize-diagnostics /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/ViewController.dia -c /Users/originate/HelloWorld/HelloWorld/ViewController.m -o /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/ViewController.o36"36AADB5F-F81F-48C4-B99C-F0808CDF4E34-
+
+CCompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/main.o /Users/originate/HelloWorld/HelloWorld/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391567259.928612
+e391567259.957803
+r1
+xCompileC
+xbuild/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/main.o
+x/Users/originate/HelloWorld/HelloWorld/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/originate/HelloWorld/HelloWorld/main.mf5d9ed9bd756b741^4032f59bd756b741^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Users/originate/HelloWorld/HelloWorld/main.m0000000000000000^3311"CompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/main.o HelloWorld/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/originate/HelloWorld    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:mfsr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/originate/HelloWorld/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources/armv7 -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources -F/Users/originate/HelloWorld/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8x/wwkg9lh93y102x4shwt92t1w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld-Prefix-ejelthzmarrgpdfwglmnzfqpyueq/HelloWorld-Prefix.pch -MMD -MT dependencies -MF /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/main.dia -c /Users/originate/HelloWorld/HelloWorld/main.m -o /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/main.o36"38316E82-1041-4BF6-9171-521D131050B4-
+
+CCompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/AppDelegate.o /Users/originate/HelloWorld/HelloWorld/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391567259.928659
+e391567259.989528
+r1
+xCompileC
+xbuild/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/AppDelegate.o
+x/Users/originate/HelloWorld/HelloWorld/AppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/originate/HelloWorld/HelloWorld/AppDelegate.m28d6ed9bd756b741^9c53fd9bd756b741^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/originate/HelloWorld/HelloWorld/AppDelegate.m0000000000000000^3360"CompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/AppDelegate.o HelloWorld/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/originate/HelloWorld    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:mfsr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/originate/HelloWorld/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources/armv7s -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources -F/Users/originate/HelloWorld/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8x/wwkg9lh93y102x4shwt92t1w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld-Prefix-ayrxyayhauprwudflekywfwihsdc/HelloWorld-Prefix.pch -MMD -MT dependencies -MF /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/AppDelegate.d --serialize-diagnostics /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/AppDelegate.dia -c /Users/originate/HelloWorld/HelloWorld/AppDelegate.m -o /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/AppDelegate.o36"7540DF63-B882-44D8-9308-6254662F3E78-
+
+CCompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/ViewController.o /Users/originate/HelloWorld/HelloWorld/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391567259.928669
+e391567259.988380
+r1
+xCompileC
+xbuild/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/ViewController.o
+x/Users/originate/HelloWorld/HelloWorld/ViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/originate/HelloWorld/HelloWorld/ViewController.m6adaed9bd756b741^d105fd9bd756b741^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/originate/HelloWorld/HelloWorld/ViewController.m0000000000000000^3378"CompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/ViewController.o HelloWorld/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/originate/HelloWorld    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:mfsr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/originate/HelloWorld/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources/armv7s -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources -F/Users/originate/HelloWorld/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8x/wwkg9lh93y102x4shwt92t1w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld-Prefix-ayrxyayhauprwudflekywfwihsdc/HelloWorld-Prefix.pch -MMD -MT dependencies -MF /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/ViewController.d --serialize-diagnostics /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/ViewController.dia -c /Users/originate/HelloWorld/HelloWorld/ViewController.m -o /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/ViewController.o36"B46DD9CC-5D22-4C03-94EE-A308CDC56383-
+
+CCompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/main.o /Users/originate/HelloWorld/HelloWorld/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391567259.928643
+e391567259.953264
+r1
+xCompileC
+xbuild/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/main.o
+x/Users/originate/HelloWorld/HelloWorld/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/originate/HelloWorld/HelloWorld/main.m6bd2ed9bd756b741^2d09f49bd756b741^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Users/originate/HelloWorld/HelloWorld/main.m0000000000000000^3318"CompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/main.o HelloWorld/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/originate/HelloWorld    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:mfsr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/originate/HelloWorld/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources/armv7s -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources -F/Users/originate/HelloWorld/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8x/wwkg9lh93y102x4shwt92t1w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld-Prefix-ayrxyayhauprwudflekywfwihsdc/HelloWorld-Prefix.pch -MMD -MT dependencies -MF /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/main.dia -c /Users/originate/HelloWorld/HelloWorld/main.m -o /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/main.o36"E0FC1670-5B1B-4210-91E3-3798BF1691DA-
+
+CCompileXIB /Users/originate/HelloWorld/HelloWorld/en.lproj/ViewController_iPad.xib
+s391567260.071338
+e391567260.092262
+r1
+xCompileXIB
+x/Users/originate/HelloWorld/HelloWorld/en.lproj/ViewController_iPad.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compiling /Users/originate/HelloWorld/HelloWorld/en.lproj/ViewController_iPad.xibc554129cd756b741^389e179cd756b741^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/originate/HelloWorld/HelloWorld/en.lproj/ViewController_iPad.xib0000000000000000^928"CompileXIB HelloWorld/en.lproj/ViewController_iPad.xib    cd /Users/originate/HelloWorld    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:mfsr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/en.lproj/ViewController_iPad.nib /Users/originate/HelloWorld/HelloWorld/en.lproj/ViewController_iPad.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk36"7443B4FA-CD97-4E4A-A104-8C7BF1D86775-
+
+CCompileXIB /Users/originate/HelloWorld/HelloWorld/en.lproj/ViewController_iPhone.xib
+s391567260.071183
+e391567260.240742
+r1
+xCompileXIB
+x/Users/originate/HelloWorld/HelloWorld/en.lproj/ViewController_iPhone.xib
+o2013-05-29 17:41:00.221 Interface Builder Cocoa Touch Tool[6823:f07] CFPreferences: user home directory at file://localhost/Users/originate/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compiling /Users/originate/HelloWorld/HelloWorld/en.lproj/ViewController_iPhone.xiba14d129cd756b741^c9ad3d9cd756b741^-241"2013-05-29 17:41:00.221 Interface Builder Cocoa Touch Tool[6823:f07] CFPreferences: user home directory at file://localhost/Users/originate/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/originate/HelloWorld/HelloWorld/en.lproj/ViewController_iPhone.xib0000000000000000^934"CompileXIB HelloWorld/en.lproj/ViewController_iPhone.xib    cd /Users/originate/HelloWorld    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:mfsr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/en.lproj/ViewController_iPhone.nib /Users/originate/HelloWorld/HelloWorld/en.lproj/ViewController_iPhone.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk36"2156BCD2-8F3D-4B63-B14D-3E49DFB2F23F-
+
+CCopyPNGFile /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/Default-568h@2x.png HelloWorld/Default-568h@2x.png
+s391567260.071168
+e391567260.154445
+r1
+xCopyPNGFile
+x/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/Default-568h@2x.png
+xHelloWorld/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile build/Release-iphoneos/HelloWorld.app/Default-568h@2x.png HelloWorld/Default-568h@2x.png014f129cd756b741^6189279cd756b741^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/originate/HelloWorld/HelloWorld/Default-568h@2x.png0000000000000000^685"CopyPNGFile "build/Release-iphoneos/HelloWorld.app/Default-568h@2x.png" "HelloWorld/Default-568h@2x.png"    cd /Users/originate/HelloWorld    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:mfsr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/originate/HelloWorld/HelloWorld/Default-568h@2x.png" "/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/Default-568h@2x.png"36"410E2CB4-EDA4-4657-AE0F-CDA4D8D3561F-
+
+CCopyPNGFile /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/Default.png HelloWorld/Default.png
+s391567260.071129
+e391567260.109846
+r1
+xCopyPNGFile
+x/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/Default.png
+xHelloWorld/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"CopyPNGFile build/Release-iphoneos/HelloWorld.app/Default.png HelloWorld/Default.pngb14d129cd756b741^691e1c9cd756b741^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/originate/HelloWorld/HelloWorld/Default.png0000000000000000^645"CopyPNGFile build/Release-iphoneos/HelloWorld.app/Default.png HelloWorld/Default.png    cd /Users/originate/HelloWorld    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:mfsr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/originate/HelloWorld/HelloWorld/Default.png /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/Default.png36"482EFD9D-A1EE-4BC5-A7C1-57B4C6C7C28B-
+
+CCopyPNGFile /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/Default@2x.png HelloWorld/Default@2x.png
+s391567260.071157
+e391567260.145612
+r1
+xCopyPNGFile
+x/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/Default@2x.png
+xHelloWorld/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CopyPNGFile build/Release-iphoneos/HelloWorld.app/Default@2x.png HelloWorld/Default@2x.pngf44d129cd756b741^5f46259cd756b741^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/originate/HelloWorld/HelloWorld/Default@2x.png0000000000000000^665"CopyPNGFile "build/Release-iphoneos/HelloWorld.app/Default@2x.png" "HelloWorld/Default@2x.png"    cd /Users/originate/HelloWorld    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:mfsr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/originate/HelloWorld/HelloWorld/Default@2x.png" "/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/Default@2x.png"36"ED90E166-BA5E-4EBA-A6EF-B04BF87DB83D-
+
+CCopyStringsFile /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/en.lproj/InfoPlist.strings HelloWorld/en.lproj/InfoPlist.strings
+s391567260.071151
+e391567260.078193
+r1
+xCopyStringsFile
+x/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/en.lproj/InfoPlist.strings
+xHelloWorld/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy HelloWorld/en.lproj/InfoPlist.strings444f129cd756b741^de03149cd756b741^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/originate/HelloWorld/HelloWorld/en.lproj/InfoPlist.strings0000000000000000^642"CopyStringsFile build/Release-iphoneos/HelloWorld.app/en.lproj/InfoPlist.strings HelloWorld/en.lproj/InfoPlist.strings    cd /Users/originate/HelloWorld    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:mfsr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/en.lproj -- HelloWorld/en.lproj/InfoPlist.strings36"E7A24F8E-EA06-4EB1-AF9C-9E8061D975D2-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Release-iphoneos/HelloWorld.app/ResourceRules.plist
+s391567259.705695
+e391567259.707979
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+xbuild/Release-iphoneos/HelloWorld.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Release-iphoneos/HelloWorld.app/ResourceRules.plista0c3b49bd756b741^1d3eb59bd756b741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/ResourceRules.plist000000000080d041^934"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Release-iphoneos/HelloWorld.app/ResourceRules.plist    cd /Users/originate/HelloWorld    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:mfsr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app36"E91B7B39-03A8-41F1-9321-3D514AE173B9-
+
+CCreateUniversalBinary /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/HelloWorld normal "armv7 armv7s"
+s391567260.029489
+e391567260.036651
+r1
+xCreateUniversalBinary
+x/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/HelloWorld
+xnormal
+xarmv7 armv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Create universal binary /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/HelloWorldb2a1079cd756b741^a261099cd756b741^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/HelloWorld000000000080d041^747"CreateUniversalBinary build/Release-iphoneos/HelloWorld.app/HelloWorld normal "armv7 armv7s"    cd /Users/originate/HelloWorld    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:mfsr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin"    lipo -create /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/HelloWorld /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/HelloWorld -output /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/HelloWorld36"185560EF-66D6-46D7-92DF-5BAF3AE7D7BF-
+
+CGenerateDSYMFile /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app.dSYM /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/HelloWorld
+s391567260.043604
+e391567260.063036
+r1
+xGenerateDSYMFile
+x/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app.dSYM
+x/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/HelloWorld
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Generate /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app.dSYM5c3d0b9cd756b741^3123109cd756b741^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app.dSYM000000000080d041^677"GenerateDSYMFile build/Release-iphoneos/HelloWorld.app.dSYM build/Release-iphoneos/HelloWorld.app/HelloWorld    cd /Users/originate/HelloWorld    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:mfsr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/HelloWorld -o /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app.dSYM36"843B6A32-EB1F-4F47-9847-62646B76FB85-
+
+CLd /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/HelloWorld normal armv7
+s391567260.002843
+e391567260.022687
+r1
+xLd
+x/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/HelloWorld
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Link /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/HelloWorlde2cb009cd756b741^9ece059cd756b741^---0#0#0#--1184"Ld build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/HelloWorld normal armv7    cd /Users/originate/HelloWorld    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:mfsr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/originate/HelloWorld/build/Release-iphoneos -F/Users/originate/HelloWorld/build/Release-iphoneos -filelist /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/HelloWorld.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/HelloWorld36"BFE13D59-8149-4508-8292-AC26FE8418B7-
+
+CLd /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/HelloWorld normal armv7s
+s391567259.995912
+e391567260.016462
+r1
+xLd
+x/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/HelloWorld
+xnormal
+xarmv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Link /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/HelloWorld3e06ff9bd756b741^ca36049cd756b741^---0#0#0#--1189"Ld build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/HelloWorld normal armv7s    cd /Users/originate/HelloWorld    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:mfsr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/originate/HelloWorld/build/Release-iphoneos -F/Users/originate/HelloWorld/build/Release-iphoneos -filelist /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/HelloWorld.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7s/HelloWorld36"0A006FCF-078B-4F4E-A68D-4940BBB07ACD-
+
+CProcessInfoPlistFile /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/Info.plist HelloWorld/HelloWorld-Info.plist
+s391567259.705723
+e391567259.709750
+r1
+xProcessInfoPlistFile
+x/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/Info.plist
+xHelloWorld/HelloWorld-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Process HelloWorld/HelloWorld-Info.plist8fc3b49bd756b741^3eb2b59bd756b741^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/originate/HelloWorld/HelloWorld/HelloWorld-Info.plist0000000000000000^808"ProcessInfoPlistFile build/Release-iphoneos/HelloWorld.app/Info.plist HelloWorld/HelloWorld-Info.plist    cd /Users/originate/HelloWorld    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:mfsr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin"    builtin-infoPlistUtility HelloWorld/HelloWorld-Info.plist -genpkginfo /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/ResourceRules.plist -o /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/Info.plist36"8D2DB617-7A78-4C89-9622-4C4B9C19E5D7-
+
+CProcessPCH /var/folders/8x/wwkg9lh93y102x4shwt92t1w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld-Prefix-ayrxyayhauprwudflekywfwihsdc/HelloWorld-Prefix.pch.pth HelloWorld/HelloWorld-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391567259.717714
+e391567259.922130
+r1
+xProcessPCH
+x/var/folders/8x/wwkg9lh93y102x4shwt92t1w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld-Prefix-ayrxyayhauprwudflekywfwihsdc/HelloWorld-Prefix.pch.pth
+xHelloWorld/HelloWorld-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile HelloWorld/HelloWorld-Prefix.pcha9ddb79bd756b741^2f14ec9bd756b741^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/originate/HelloWorld/HelloWorld/HelloWorld-Prefix.pch0000000000000000^3421"ProcessPCH /var/folders/8x/wwkg9lh93y102x4shwt92t1w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld-Prefix-ayrxyayhauprwudflekywfwihsdc/HelloWorld-Prefix.pch.pth HelloWorld/HelloWorld-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/originate/HelloWorld    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:mfsr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/originate/HelloWorld/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources/armv7s -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources -F/Users/originate/HelloWorld/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/8x/wwkg9lh93y102x4shwt92t1w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld-Prefix-ayrxyayhauprwudflekywfwihsdc/HelloWorld-Prefix.pch.dia -c /Users/originate/HelloWorld/HelloWorld/HelloWorld-Prefix.pch -o /var/folders/8x/wwkg9lh93y102x4shwt92t1w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld-Prefix-ayrxyayhauprwudflekywfwihsdc/HelloWorld-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/8x/wwkg9lh93y102x4shwt92t1w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld-Prefix-ayrxyayhauprwudflekywfwihsdc/HelloWorld-Prefix.pch.d36"9A1C1661-E4D4-455F-9909-0446B3C37BBB-
+
+CProcessPCH /var/folders/8x/wwkg9lh93y102x4shwt92t1w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld-Prefix-ejelthzmarrgpdfwglmnzfqpyueq/HelloWorld-Prefix.pch.pth HelloWorld/HelloWorld-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391567259.717694
+e391567259.922124
+r1
+xProcessPCH
+x/var/folders/8x/wwkg9lh93y102x4shwt92t1w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld-Prefix-ejelthzmarrgpdfwglmnzfqpyueq/HelloWorld-Prefix.pch.pth
+xHelloWorld/HelloWorld-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile HelloWorld/HelloWorld-Prefix.pch87ddb79bd756b741^0e10ec9bd756b741^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/originate/HelloWorld/HelloWorld/HelloWorld-Prefix.pch0000000000000000^3418"ProcessPCH /var/folders/8x/wwkg9lh93y102x4shwt92t1w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld-Prefix-ejelthzmarrgpdfwglmnzfqpyueq/HelloWorld-Prefix.pch.pth HelloWorld/HelloWorld-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/originate/HelloWorld    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:mfsr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/originate/HelloWorld/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources/armv7 -I/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources -F/Users/originate/HelloWorld/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/8x/wwkg9lh93y102x4shwt92t1w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld-Prefix-ejelthzmarrgpdfwglmnzfqpyueq/HelloWorld-Prefix.pch.dia -c /Users/originate/HelloWorld/HelloWorld/HelloWorld-Prefix.pch -o /var/folders/8x/wwkg9lh93y102x4shwt92t1w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld-Prefix-ejelthzmarrgpdfwglmnzfqpyueq/HelloWorld-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/8x/wwkg9lh93y102x4shwt92t1w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld-Prefix-ejelthzmarrgpdfwglmnzfqpyueq/HelloWorld-Prefix.pch.d36"E8FB3051-0E37-467C-9AD9-27AADAA280B5-
+
+CProcessProductPackaging "/Users/originate/Library/MobileDevice/Provisioning Profiles/35776C85-B1A3-4605-9154-76D43F7A7A2B.mobileprovision" /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/embedded.mobileprovision
+s391567260.260515
+e391567260.263479
+r1
+xProcessProductPackaging
+x/Users/originate/Library/MobileDevice/Provisioning Profiles/35776C85-B1A3-4605-9154-76D43F7A7A2B.mobileprovision
+x/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection201"ProcessProductPackaging "/Users/originate/Library/MobileDevice/Provisioning Profiles/35776C85-B1A3-4605-9154-76D43F7A7A2B.mobileprovision" build/Release-iphoneos/HelloWorld.app/embedded.mobileprovision54c7429cd756b741^d672439cd756b741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/embedded.mobileprovision0000000000000000^764"ProcessProductPackaging "/Users/originate/Library/MobileDevice/Provisioning Profiles/35776C85-B1A3-4605-9154-76D43F7A7A2B.mobileprovision" build/Release-iphoneos/HelloWorld.app/embedded.mobileprovision    cd /Users/originate/HelloWorld    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:mfsr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin"    builtin-productPackagingUtility "/Users/originate/Library/MobileDevice/Provisioning Profiles/35776C85-B1A3-4605-9154-76D43F7A7A2B.mobileprovision" -o /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/embedded.mobileprovision36"50304AD7-0020-4BE3-9521-71D02B9E642F-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld.xcent
+s391567260.284909
+e391567260.287314
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+x/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection218"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld.xcentb400499cd756b741^9b8d499cd756b741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld.xcent000000000080d041^824"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld.xcent    cd /Users/originate/HelloWorld    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:mfsr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/originate/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld.xcent36"0D7B03D9-114F-4389-9C7E-B2771A95657F-
+
+CTouch /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app
+s391567260.271459
+e391567260.276855
+r1
+xTouch
+x/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Touch /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app8b8d459cd756b741^6ee0469cd756b741^---0#0#0#--449"Touch build/Release-iphoneos/HelloWorld.app    cd /Users/originate/HelloWorld    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:mfsr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin"    /usr/bin/touch -c /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app36"255F474A-9983-4B41-A40C-159C3F803830-
+
+CValidate /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app
+s391567260.462120
+e391567261.992711
+r1
+xValidate
+x/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app
+owarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)
+oUnable to validate your application. - (null)
+o
+owarning: iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)
+oUnable to validate your application. - (null)
+o
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Validate build/Release-iphoneos/HelloWorld.app0e67769cd756b741^4f22fe9dd756b741^-500"warning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)Unable to validate your application. - (null)warning: iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)Unable to validate your application. - (null)2(21%IDEActivityLogMessage2@202" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)192"IPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57391567261#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#16"Validate Warning--2@192" iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)182"IPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72391567261#18446744073709551615#0#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#16"Validate Warning--0#0#0#-19%DVTDocumentLocation4@82"file://localhost/Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app/0000000000000000^593"Validate build/Release-iphoneos/HelloWorld.app    cd /Users/originate/HelloWorld    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:mfsr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/originate/HelloWorld/build/Release-iphoneos/HelloWorld.app36"5F1653D6-8183-4995-AE4D-A3A5C59BC5D4-
+
