@@ -28,12 +28,7 @@
 {
     //STFail(@"Unit tests are not implemented yet in HelloWorldTests");
     assert(true);
-}
-
-- (void)failingTest
-{
-    //Purposely failing test
-    STFail(@"Unit tests are not implemented yet in HelloWorldTests");
+    
 }
 
 @end
