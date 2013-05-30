@@ -265,7 +265,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${PROJECT_DIR}/Scripts/run_tests.rb\"\n";
+			shellScript = "# Run the unit tests in this test bundle.\n#\"${PROJECT_DIR}/XcodeScripts/RunPlatformUnitTests\"\nif [ -z \"${WANT_IOS_SIM}\" ]\nthen\n#   Running under xcodebuild, so use ios-sim installed from Homebrew into /usr/local/bin/ios-sim\nkillall -m -KILL \"iPhone Simulator\" || true\nour_test_bundle_path=$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.$WRAPPER_EXTENSION\nour_env=(\"--setenv\" \"DYLD_INSERT_LIBRARIES=/../../Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection\")\nour_env=(\"${our_env[@]}\" \"--setenv\" \"XCInjectBundle=${our_test_bundle_path}\")\nour_env=(\"${our_env[@]}\" \"--setenv\" \"XCInjectBundleInto=${TEST_HOST}\")\nour_app_location=\"$(dirname \"${TEST_HOST}\")\"\n/usr/local/bin/ios-sim launch \"${our_app_location}\" \"${our_env[@]}\" --args -SenTest All \"${our_test_bundle_path}\" --exit\nkillall -m -KILL \"iPhone Simulator\" || true\nexit 0\nelse\n#   Running under Xcode\n\"${DEVELOPER_TOOLS_DIR}/RunUnitTests\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -403,7 +403,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "35776C85-B1A3-4605-9154-76D43F7A7A2B";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				TEST_AFTER_BUILD = NO;
+				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -417,7 +417,7 @@
 				INFOPLIST_FILE = "HelloWorld/HelloWorld-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "35776C85-B1A3-4605-9154-76D43F7A7A2B";
-				TEST_AFTER_BUILD = NO;
+				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
