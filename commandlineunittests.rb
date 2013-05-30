@@ -1,5 +1,5 @@
 if ENV['SL_RUN_UNIT_TESTS'] then
-    launcher_path = "/usr/local/bin/ios-sim"    
+    launcher_path = "${SRCROOT}/ios-sim"    
     #File.join(ENV['SRCROOT'], "Scripts", "ios-sim")
     test_bundle_path= File.join(ENV['BUILT_PRODUCTS_DIR'], "#{ENV['PRODUCT_NAME']}.#{ENV['WRAPPER_EXTENSION']}")
 
