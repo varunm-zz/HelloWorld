@@ -265,7 +265,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "ruby -v\nruby \"${SRCROOT}/commandlineunittests.rb\"\n";
+			shellScript = "# Run the unit tests in this test bundle.\n#\"${PROJECT_DIR}/XcodeScripts/RunPlatformUnitTests\"\nif [ -z \"${WANT_IOS_SIM}\" ]\nthen\n#   Running under xcodebuild, so use ios-sim installed from Homebrew into /usr/local/bin/ios-sim\nkillall -m -KILL \"iPhone Simulator\" || true\nour_test_bundle_path=$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.$WRAPPER_EXTENSION\nour_env=(\"--setenv\" \"DYLD_INSERT_LIBRARIES=/../../Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection\")\nour_env=(\"${our_env[@]}\" \"--setenv\" \"XCInjectBundle=${our_test_bundle_path}\")\nour_env=(\"${our_env[@]}\" \"--setenv\" \"XCInjectBundleInto=${TEST_HOST}\")\nour_app_location=\"$(dirname \"${TEST_HOST}\")\"\n\"${SRCROOT}/ios-sim\" launch \"${our_app_location}\" \"${our_env[@]}\" --args -SenTest All \"${our_test_bundle_path}\" --exit\nkillall -m -KILL \"iPhone Simulator\" || true\nexit 0\nelse\n#   Running under Xcode\n\"${DEVELOPER_TOOLS_DIR}/RunUnitTests\"\nfi";
 		};
 /* End PBXShellScriptBuildPhase section */
 
