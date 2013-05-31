@@ -9,3 +9,4 @@ Does test flight get this message?
 build project
 Another change
 hook
+script
