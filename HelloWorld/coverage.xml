@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage
+  SYSTEM 'http://cobertura.sourceforge.net/xml/coverage-03.dtd'>
+<coverage branch-rate="0.0" line-rate="0.0" timestamp="1370542053" version="gcovr 2.5-prerelease (r2839)">
+<sources>
+<source>
+/Users/originate/HelloWorld
+</source>
+</sources>
+<packages/>
+</coverage>
+
